@@ -408,11 +408,11 @@
                 /**
                  * Show controls only if autoplay is disabled
                  */
-                // music.oncanplay = () => {
-                //     if (music.paused) {
-                //         music.setAttribute("controls", "controls");
-                //     }
-                // };
+                music.oncanplay = () => {
+                    if (music.paused) {
+                        music.setAttribute("controls", "controls");
+                    }
+                };
 
                 /**
                  * Always show controls if want music
